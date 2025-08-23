@@ -45,5 +45,11 @@
     font-weight: 800;
     color: #000000;
     line-height: 65.91px;
-    font-size: 60px;
+    font-size: 50px;
+}
+.slider-text  > p {
+    font-weight:500;
+    font-size:20px;
+    line-height: 20px;
+    color: #9E9DA2;
 }
