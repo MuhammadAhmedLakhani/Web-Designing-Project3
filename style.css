@@ -26,9 +26,7 @@
 .slider-left {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-
-
+    justify-content:space-around;
 }
 
 .slider-btns {
@@ -82,6 +80,7 @@
         width: 120px;
         
     }
+}
 @media only screen and (max-width: 600px) {
     .slider-left{
         padding: 10px 5px;
@@ -96,4 +95,20 @@
     .row{
         flex-direction: column-reverse;
     }
+}
+
+.my-container {
+    height: 168px;
+    background-color: #75BF7A;
+}
+.text > h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+}
+.input-num {
+    background-color: #fff;
+    border: 0px;
+    padding: 20px 30px;
 }
