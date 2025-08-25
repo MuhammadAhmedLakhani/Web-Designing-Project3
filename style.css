@@ -106,9 +106,53 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 24px;
+    height: 56px;
+    margin: 0;
+    /* width: 248px; */
 }
 .input-num {
-    background-color: #fff;
+    padding: 0 !important;
+}
+.input-num > input{
     border: 0px;
-    padding: 20px 30px;
+    padding: 0px !important;
+    height: 67px;
+    width: 100% ;
+    /* width: 499px; */
+}
+.input-num ::placeholder{
+    padding: 30px;
+    color: #DADADA;
+    width: inherit;
+    font-weight: 600;
+    font-size: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.link-section{
+    height: 168px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px !important;
+}
+.link-btn > button {
+    height: 67px;
+    /* width: 250px; */
+    width: 100%;
+    border:  0;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 22px
+}
+
+@media only screen and(max-width:768px){
+    .input-num {
+        margin-right: 0px !important;
+    }
 }
