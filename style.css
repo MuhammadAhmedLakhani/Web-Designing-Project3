@@ -306,10 +306,25 @@ input::-webkit-inner-spin-button {
 
 .card-2 {
     left: 10%; 
+    z-index: 3;
+}
+
+.card-3{
+    z-index: 2;
 }
 
 .card-content2 > h1 {
     left: 150px !important;
+}
+
+.bg-image {
+    background-color: #F9F9F9;
+}
+
+.bg-image > img{
+    top: 58%;
+    left: 10%;
+    z-index: 1;
 }
 
 
