@@ -1,5 +1,10 @@
+.main {
+    background-color: #F9F9F9;
+}
+
+
 .navbar {
-    background-color: #fff;
+    background-color: #fff !important;
 }
 
 
@@ -34,6 +39,9 @@
     margin-top: 38px;
 
 }
+.slider-btns > img {
+    margin-right: 20px;
+}
 
 .slider-text>h1 {
     font-weight: 800;
@@ -48,6 +56,7 @@
     line-height: 20px;
     color: #9E9DA2;
 }
+
 
 
 @media only screen and (max-width: 990px) {
@@ -253,11 +262,55 @@ input::-webkit-inner-spin-button {
     height: 400px;
 }
 
+.benefits-section > h1 {
+    text-align: center;
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: 750;
+}
 
+.benefits-section > h1 > span {
+    color:#75BF7A;
+}
 
+.card-row {
+    background-color: #fff;
+    height: 300px;
+    width: 90%;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.card-content > h1 {
+    font-size: 33.94px;
+    line-height: 32.5px;
+    font-weight: 600;
+    color: #000000;
+    left: 80px;
+}
 
+.card-content > h2 {
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 118.8px;
+    color: #75BF7A;
+    margin: 0px;
+}
 
+.card-content > p {
+    font-size: 22px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #9E9DA2;
 
+}
+
+.card-2 {
+    left: 10%; 
+}
+
+.card-content2 > h1 {
+    left: 150px !important;
+}
 
 
 
