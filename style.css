@@ -1,3 +1,4 @@
+
 .navbar {
     background-color: #fff;
 }
@@ -26,7 +27,7 @@
 .slider-left {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .slider-btns {
@@ -71,37 +72,27 @@
         font-size: 30px;
     }
 }
+
 @media only screen and (max-width: 762px) {
-    .slider-left{
+    .slider-left {
         padding: 30px 20px;
         text-align: center;
     }
-    .slider-btns > img {
-        width: 120px;
-        
+
+    .slider-btns>img {
+        width: 160px;
+
     }
 }
-@media only screen and (max-width: 600px) {
-    .slider-left{
-        padding: 10px 5px;
-        text-align: center;
-    }
-    .slider-btns > img {
-        width: 100px;
-    }
-    .slider >img{
-        padding: 0px;
-    }
-    .row{
-        flex-direction: column-reverse;
-    }
-}
+
 
 .my-container {
     height: 168px;
     background-color: #75BF7A;
 }
-.text > h2 {
+
+
+.text>h2 {
     color: #fff;
     font-weight: 500;
     font-size: 22px;
@@ -110,49 +101,140 @@
     margin: 0;
     /* width: 248px; */
 }
+
 .input-num {
     padding: 0 !important;
+    margin-left: 48px;
+
 }
-.input-num > input{
+
+.input-num>input {
     border: 0px;
     padding: 0px !important;
     height: 67px;
-    width: 100% ;
+    width: 100%;
     /* width: 499px; */
 }
-.input-num ::placeholder{
+
+.input-num ::placeholder {
     padding: 30px;
     color: #DADADA;
     width: inherit;
     font-weight: 600;
     font-size: 20px;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
-.link-section{
-    height: 168px;
+
+.link-section {
+    height: 100%;
     align-items: center;
     justify-content: center;
     margin-top: 40px !important;
 }
-.link-btn > button {
+
+.link-btn>button {
     height: 67px;
     /* width: 250px; */
     width: 100%;
-    border:  0;
+    border: 0;
     padding: 20px;
     background-color: #000;
     color: #fff;
     text-transform: capitalize;
     font-weight: 800;
-    font-size: 22px
+    font-size: 22px;
+    margin-left: 16px;
 }
 
-@media only screen and(max-width:768px){
+@media only screen and (min-width:768px) and (max-width:992px) {
     .input-num {
-        margin-right: 0px !important;
+        margin: 0px !important;
+    }
+
+    .link-section {
+        justify-content: center !important;
+    }
+
+    .input-num ::placeholder {
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .link-btn>button {
+        padding: 10px;
+        font-size: 16px
+    }
+
+    .my-container { 
+        height: 138px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .slider-left {
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    .slider-btns>img:nth-child(1) {
+        margin-left: -20px;
+    }
+
+    .slider-btns>img:nth-child(2) {
+        margin-left: 20px;
+    }
+    .slider-btns>img {
+        width: 140px;
+    }
+
+    .slider>img {
+        padding: 0px;
+    }
+
+    .slider-row {
+        flex-direction: column-reverse;
+    }
+
+    .my-container {
+        height: auto;
+        width: 90% !important;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .link-section > *{
+        margin: 20px 0px;
+    } 
+    .input-num{
+        margin-left: 0px;
+    }
+    .link-btn > button{
+        margin-left: 0px !important;
+    }
+    .link-section {
+         flex-direction: column;
+         margin-top: 0px !important;
+    }
+
+    
+    .input-num ::placeholder {
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    .link-btn>button {
+        padding: 10px;
+        font-size: 18px
+    }
+    .text > h2{
+        font-size: 24px;
+        line-height: 28px;
     }
 }
