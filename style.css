@@ -203,6 +203,80 @@ input::-webkit-inner-spin-button {
     justify-content:left;
 }
 
+.how-left {
+    height: 500px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.how-left > h2 {
+    color: #000000;
+    font-size: 22px;
+    line-height: 50px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.how-left > p {
+    color: #9E9DA2;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.num {
+    width: 60px;
+    padding: 10px 22px;
+}
+
+.num > h1{
+    color: #75BF7A;
+    font-size: 34px;
+    font-weight: 800;
+}
+.ring { 
+    width: 60px;
+    height: 63px;
+}
+
+.how-middle{
+    padding: 0px !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.how-right > h2 {
+    color: #000000;
+    font-size: 22px;
+    line-height: 50px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.how-right > p {
+    color: #9E9DA2;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.how-right {
+    height: 500px;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
