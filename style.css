@@ -1,5 +1,6 @@
 .main {
     background-color: #F9F9F9;
+    height: auto;
 }
 
 
@@ -39,7 +40,8 @@
     margin-top: 38px;
 
 }
-.slider-btns > img {
+
+.slider-btns>img {
     margin-right: 20px;
 }
 
@@ -262,25 +264,28 @@ input::-webkit-inner-spin-button {
     height: 400px;
 }
 
-.benefits-section > h1 {
+
+
+.benefits-section>h1 {
     text-align: center;
     font-size: 46px;
     line-height: 50px;
     font-weight: 750;
 }
 
-.benefits-section > h1 > span {
-    color:#75BF7A;
+.benefits-section>h1>span {
+    color: #75BF7A;
 }
 
 .card-row {
     background-color: #fff;
-    height: 300px;
-    width: 90%;
+    height: auto;
+    width: 95%;
     padding: 10px 30px;
     border-radius: 10px;
 }
-.card-content > h1 {
+
+.card-content>h1 {
     font-size: 33.94px;
     line-height: 32.5px;
     font-weight: 600;
@@ -288,7 +293,7 @@ input::-webkit-inner-spin-button {
     left: 80px;
 }
 
-.card-content > h2 {
+.card-content>h2 {
     font-size: 88px;
     font-weight: 500;
     line-height: 118.8px;
@@ -296,7 +301,7 @@ input::-webkit-inner-spin-button {
     margin: 0px;
 }
 
-.card-content > p {
+.card-content>p {
     font-size: 22px;
     line-height: 23px;
     font-weight: 500;
@@ -304,28 +309,49 @@ input::-webkit-inner-spin-button {
 
 }
 
+.card-1 {
+    display: flex;
+    justify-content: center;
+
+}
+
 .card-2 {
-    left: 10%; 
+    position: relative !important;
+    left: 10%;
     z-index: 3;
 }
 
-.card-3{
+.card-3 {
     z-index: 2;
 }
 
-.card-content2 > h1 {
+.card-content2>h1 {
     left: 150px !important;
 }
 
 .bg-image {
     background-color: #F9F9F9;
+    z-index: 5;
 }
 
-.bg-image > img{
+.bg-image>img {
     top: 58%;
     left: 10%;
     z-index: 1;
 }
+
+.benefits-cards {
+    position: relative;
+    background-color: #F9F9F9;
+    height: auto !important;
+}
+
+.space {
+    height: 300px;
+}
+
+
+
 
 
 
@@ -410,9 +436,86 @@ input::-webkit-inner-spin-button {
         line-height: 23px;
     }
 
-    .how-row {
+    /* .how-row {
         display: none;
+    } */
+
+    .card-2 {
+        position: static !important;
+        left: 0%;
+
     }
+
+    .card-content>h1 {
+        left: 36%;
+    }
+
+    .card-1-image {
+        text-align: center !important;
+    }
+
+    .card-2-image {
+        text-align: center;
+    }
+
+
+
+    .card-3-image {
+        text-align: center;
+    }
+
+
+    .how-left {
+        height: auto;
+        align-items: center;
+    }
+
+    .how-right {
+        height: auto;
+        align-items: center;
+    }
+
+    .how-row {
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .how-middle {
+        order: 1;
+    }
+
+    .how-left {
+        order: 3;
+        flex-direction: column;
+    }
+
+    .how-right {
+        order: 2;
+    }
+
+    .benefits-cards {
+        position: static;
+    }
+
+    .how-cont {
+        position: relative;
+    }
+
+    .bg-image>img {
+        top: 147%;
+        left: 23%;
+    }
+
+    .how-image {
+        position: absolute;
+        top:32%;
+        left: 39%;
+    }
+
+
+
+
 }
 
 
