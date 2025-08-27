@@ -350,11 +350,27 @@ input::-webkit-inner-spin-button {
     height: 300px;
 }
 
+.footer {
+    height: 553px;
+    background-color: #fff;
+}
 
+.footer-row {
+    height: 309px;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-details>h2 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+}
 
-
-
+.footer-trade-mark {
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 
@@ -509,11 +525,24 @@ input::-webkit-inner-spin-button {
 
     .how-image {
         position: absolute;
-        top:32%;
+        top: 32%;
         left: 39%;
     }
 
+    .space{
+        display: none;
+    }
 
+    .footer-row {
+        height: 400px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .f-hide {
+        display: none;
+    }
 
 
 }
